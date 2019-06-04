@@ -26,7 +26,7 @@ function sayHiToGrandma(string) {
     }
     // case where string is already all lowercase
     if(string === whisper(string)) {
-          return "YI can't hear you!"
+          return "I can't hear you!"
     }
   }
 }
