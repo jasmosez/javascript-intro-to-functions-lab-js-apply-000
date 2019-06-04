@@ -16,13 +16,15 @@ function logWhisper (string) {
 }
 
 function sayHiToGrandma(string) {
-  // case that string is already all uppercase
+  // start with speciality case
   if (string === "I love you, Grandma.") {
     return "I love you, too."
   } else {
+    // case where string is already all uppercase
     if(string === shout(string)) {
           return "YES INDEED!"
     }
+    // case where string is already all lowercase
     if(string === whisper(string)) {
           return "YI can't hear you!"
     }
