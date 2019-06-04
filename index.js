@@ -17,7 +17,9 @@ function logWhisper (string) {
 
 function sayHiToGrandma(string) {
   // case that string is already all uppercase
-  if (string === "")
+  if (string === "I love you, Grandma.") {
+    return ""
+  }
   
   (string === shout(string)) {
     return "YES INDEED!"
